@@ -1,0 +1,6 @@
+{
+"vart.draw":{
+"sounds":[{"name":"draw","stream":"true"}],"category":"music"},
+"vart.tap":{
+"sounds":[{"name":"tap","stream":"true"}],"category":"music"}
+}

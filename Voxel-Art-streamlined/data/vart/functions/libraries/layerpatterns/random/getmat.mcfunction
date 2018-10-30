@@ -1,0 +1,22 @@
+#transfers all extra material coposition details to @s
+scoreboard players operation @s m1.va = tmp m1.va
+scoreboard players operation @s m2.va = tmp m2.va
+scoreboard players operation @s m3.va = tmp m3.va
+scoreboard players operation @s m4.va = tmp m4.va
+scoreboard players operation @s m5.va = tmp m5.va
+scoreboard players operation @s m6.va = tmp m6.va
+scoreboard players operation @s m7.va = tmp m7.va
+scoreboard players operation @s m8.va = tmp m8.va
+scoreboard players operation @s m9.va = tmp m9.va
+scoreboard players operation @s m10.va = tmp m10.va
+
+scoreboard players operation @s p1.va = tmp p1.va
+scoreboard players operation @s p2.va = tmp p2.va
+scoreboard players operation @s p3.va = tmp p3.va
+scoreboard players operation @s p4.va = tmp p4.va
+scoreboard players operation @s p5.va = tmp p5.va
+scoreboard players operation @s p6.va = tmp p6.va
+scoreboard players operation @s p7.va = tmp p7.va
+scoreboard players operation @s p8.va = tmp p8.va
+scoreboard players operation @s p9.va = tmp p9.va
+scoreboard players operation @s p10.va = tmp p10.va

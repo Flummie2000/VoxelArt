@@ -1,0 +1,14 @@
+{
+  "values":[
+	"minecraft:air",
+	"minecraft:grass",
+	"#minecraft:carpets",
+	"#minecraft:saplings",
+	"minecraft:oxeye_daisy",
+	"minecraft:poppy",
+	"minecraft:dandelion",
+	"minecraft:water",
+	"minecraft:tall_grass",
+        "minecraft:diamond_block"
+  ]
+}

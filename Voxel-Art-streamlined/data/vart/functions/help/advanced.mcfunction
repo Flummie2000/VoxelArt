@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"manual save to brush","color":"red","clickEvent":{"action": "suggest_command","value": "/function vart:brushstats/save"},"hoverEvent":{"action":"show_text","value":"The fake tags Move,Pat,Size,Rot and Mat control the brushes settings. Data is always stored 1 value higher."}}]
