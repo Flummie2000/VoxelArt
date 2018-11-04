@@ -5,7 +5,7 @@
 
 scoreboard players operation tmp Player.va = @s Player.va
 execute store result score tmp material.va run data get entity @s Pos[1] 1
-scoreboard players add tmp material.va 1
+
 execute if score tmp material.va matches 4.. run scoreboard players set @s material.va 0
 execute if score tmp material.va matches 3 run scoreboard players set @s material.va 259
 execute if score tmp material.va matches 1..2 run scoreboard players set @s material.va 248

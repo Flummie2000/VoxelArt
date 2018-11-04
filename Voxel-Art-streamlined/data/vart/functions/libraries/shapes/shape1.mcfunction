@@ -82,4 +82,4 @@ execute if score tmp grow.va matches 3 as @e[scores={brushcount.va=5},tag=brush,
 execute if score tmp grow.va matches 3 as @e[tag=brush,type=slime,nbt={CustomName:"{\"text\":\"Brush Head\"}"}] if score tmp Player.va = @s Player.va run tag @s add large.bID
 
 #applies brush melting
-function vart:libraries/melt
+#function vart:libraries/melt

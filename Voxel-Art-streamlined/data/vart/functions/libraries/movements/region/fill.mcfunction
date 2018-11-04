@@ -16,11 +16,12 @@ execute if entity @s[tag=zregdone.va] as @a[tag=runVoxel] if score @s Player.va 
 execute if entity @s[tag=zregdone.va] as @a[tag=runVoxel] if score @s Player.va = tmp Player.va run tag @s add resetreg.va
 
 #moves the rest of the brush
-execute as @e[nbt={CustomName:"{\"text\":\"Brush Head\"}"}] if score @s Player.va = tmp Player.va at @s if entity @s[tag=!large.va] run function vart:libraries/shape
-execute as @e[nbt={CustomName:"{\"text\":\"Brush Head\"}"}] if score @s Player.va = tmp Player.va at @s if entity @s[tag=large.va] positioned ~ ~1 ~ run function vart:libraries/shape
+execute as @e[nbt={CustomName:"{\"text\":\"Brush Head\"}"}] if score @s Player.va = tmp Player.va at @s align xyz positioned ~.5 ~-.25 ~.5 if entity @s[tag=!large.bID] run function vart:libraries/shape
+execute as @e[nbt={CustomName:"{\"text\":\"Brush Head\"}"}] if score @s Player.va = tmp Player.va at @s align xyz positioned ~.5 ~-1.5 ~.5 if entity @s[tag=large.bID] run function vart:libraries/shape
 
 #brush places block
-execute as @e[tag=brush] if score @s Player.va = tmp Player.va at @s positioned ~ ~.75 ~ run function vart:entitybased/clickevent
+execute as @e[tag=brush,tag=!large.bID] if score tmp Player.va = @s Player.va at @s positioned ~ ~.75 ~ run function vart:entitybased/clickevent
+execute as @e[tag=brush,tag=large.bID] if score tmp Player.va = @s Player.va at @s positioned ~ ~1.75 ~ run function vart:entitybased/clickevent
 
 #counts positions
 scoreboard players add @s age.va 1
