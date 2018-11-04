@@ -34,33 +34,33 @@ scoreboard players operation #max/parts rand.va /= tmp1 rand.va
 scoreboard players operation tmp rand.va /= #max/parts rand.va
 
 #sets material
-execute if score tmp rand.va < @s p1.va run scoreboard players operation @s material.va = @s m1.va
-execute if score tmp rand.va < @s p1.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p1.va run scoreboard players operation @s material.va = @s m1.va
+execute if score tmp rand.va <= @s p1.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p1.va run scoreboard players operation tmp rand.va -= @s p1.va
-execute if score tmp rand.va < @s p2.va run scoreboard players operation @s material.va = @s m2.va
-execute if score tmp rand.va < @s p2.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p2.va run scoreboard players operation @s material.va = @s m2.va
+execute if score tmp rand.va <= @s p2.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p2.va run scoreboard players operation tmp rand.va -= @s p2.va
-execute if score tmp rand.va < @s p3.va run scoreboard players operation @s material.va = @s m3.va
-execute if score tmp rand.va < @s p3.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p3.va run scoreboard players operation @s material.va = @s m3.va
+execute if score tmp rand.va <= @s p3.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p3.va run scoreboard players operation tmp rand.va -= @s p3.va
-execute if score tmp rand.va < @s p4.va run scoreboard players operation @s material.va = @s m4.va
-execute if score tmp rand.va < @s p4.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p4.va run scoreboard players operation @s material.va = @s m4.va
+execute if score tmp rand.va <= @s p4.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p4.va run scoreboard players operation tmp rand.va -= @s p4.va
-execute if score tmp rand.va < @s p5.va run scoreboard players operation @s material.va = @s m5.va
-execute if score tmp rand.va < @s p5.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p5.va run scoreboard players operation @s material.va = @s m5.va
+execute if score tmp rand.va <= @s p5.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p5.va run scoreboard players operation tmp rand.va -= @s p5.va
-execute if score tmp rand.va < @s p6.va run scoreboard players operation @s material.va = @s m6.va
-execute if score tmp rand.va < @s p6.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p6.va run scoreboard players operation @s material.va = @s m6.va
+execute if score tmp rand.va <= @s p6.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p6.va run scoreboard players operation tmp rand.va -= @s p6.va
-execute if score tmp rand.va < @s p7.va run scoreboard players operation @s material.va = @s m7.va
-execute if score tmp rand.va < @s p7.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p7.va run scoreboard players operation @s material.va = @s m7.va
+execute if score tmp rand.va <= @s p7.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p7.va run scoreboard players operation tmp rand.va -= @s p7.va
-execute if score tmp rand.va < @s p8.va run scoreboard players operation @s material.va = @s m8.va
-execute if score tmp rand.va < @s p8.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p8.va run scoreboard players operation @s material.va = @s m8.va
+execute if score tmp rand.va <= @s p8.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p8.va run scoreboard players operation tmp rand.va -= @s p8.va
-execute if score tmp rand.va < @s p9.va run scoreboard players operation @s material.va = @s m9.va
-execute if score tmp rand.va < @s p9.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p9.va run scoreboard players operation @s material.va = @s m9.va
+execute if score tmp rand.va <= @s p9.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p9.va run scoreboard players operation tmp rand.va -= @s p9.va
-execute if score tmp rand.va < @s p10.va run scoreboard players operation @s material.va = @s m10.va
-execute if score tmp rand.va < @s p10.va run scoreboard players set tmp rand.va 2147483647
+execute if score tmp rand.va <= @s p10.va run scoreboard players operation @s material.va = @s m10.va
+execute if score tmp rand.va <= @s p10.va run scoreboard players set tmp rand.va 2147483647
 execute if score tmp rand.va > @s p10.va run scoreboard players operation tmp rand.va -= @s p10.va
