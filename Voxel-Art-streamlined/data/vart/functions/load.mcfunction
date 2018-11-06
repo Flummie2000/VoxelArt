@@ -14,6 +14,7 @@ scoreboard objectives add age.va dummy
 scoreboard objectives add drawmethod.va dummy
 scoreboard objectives add override.va dummy
 scoreboard objectives add size.va dummy
+scoreboard objectives add brushmodel.va dummy
 scoreboard objectives add tmp.va dummy
 scoreboard objectives add smooth.va dummy
 scoreboard objectives add brushcount.va dummy

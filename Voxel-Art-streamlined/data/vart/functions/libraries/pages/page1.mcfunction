@@ -22,7 +22,8 @@ execute as @e[type=area_effect_cloud,sort=nearest,tag=item,limit=1] if score @s 
 execute as @s[tag=click,tag=1] as @e[tag=item,tag=selector,sort=nearest,limit=1] if score @s Player.va = tmp Player.va run scoreboard players set @s page.va 10
 
 #performs action for selector 2 (get clean brush)
-execute as @s[tag=click,tag=2] as @a[sort=nearest] if score @s Player.va = tmp Player.va run give @s minecraft:carrot_on_a_stick{display:{Name:"\"Voxel Brush\"",Lore:["Clean brush: set your options using /trigger!"]},Unbreakable:1,Damage:1s}
+scoreboard players operation newbrush config.va = gunmodelr config.va
+execute as @s[tag=click,tag=2] as @a[sort=nearest] if score @s Player.va = tmp Player.va at @s run function vart:entitybased/newbrush
 
 #performs action for selector 3 (page left)
 execute as @s[tag=click,tag=3] as @e[tag=item,tag=selector,sort=nearest,limit=1] if score @s Player.va = tmp Player.va run scoreboard players set @s page.va 3

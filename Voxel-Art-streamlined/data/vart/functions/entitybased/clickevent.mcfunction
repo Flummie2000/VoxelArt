@@ -40,6 +40,7 @@ scoreboard players operation @s material.bID = @s material.va
 #places a block via bID
 execute if entity @s[tag=!large.bID] run function bid:placeblocks
 execute if entity @s[tag=large.bID] run function bid:fillblocks
+execute if entity @s[tag=sand.bID] run function bid:placesand
 
 #resets the brush parts material
 scoreboard players reset @s[type=!player] material.va

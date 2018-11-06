@@ -6,3 +6,4 @@ execute as @s run function vart:brushstats/syncbrush/syncpat
 execute as @s run function vart:brushstats/syncbrush/synclpat
 execute as @s run function vart:brushstats/syncbrush/syncrot
 execute as @s run function vart:brushstats/syncbrush/syncsiz
+execute as @s run function vart:brushstats/syncbrush/synccol

@@ -2,7 +2,7 @@
 execute as @s at @s run function vart:libraries/maxset
 
 #inits f switching
-execute if entity @s[nbt=!{SelectedItem:{}}] if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"\"Voxel Brush\""},Unbreakable:1}}]}] run function vart:fswitch/main
+execute if entity @s[nbt=!{SelectedItem:{}}] if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{display:{Name:"\"Voxel Brush\""}}}]}] run function vart:fswitch/main
 scoreboard players reset @s fsneak.va
 
 #stops VoxelArt for players without a Voxel Core or a brush

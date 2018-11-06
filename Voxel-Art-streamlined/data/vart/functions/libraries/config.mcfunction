@@ -12,6 +12,9 @@ scoreboard players set placehelp config.va 1
 #sneakrot config  -0 = stopping brushrotation on sneak disabled / 1 = stopping brushrotation on sneaking enabled
 scoreboard players set sneakrot config.va 0
 
+#fmatspawn config  -0 = material spawning on fswitch disabled / 1 = material spawning on fswtich enabled (buggy on everything not highend, no perm corruption)
+scoreboard players set fmatspawn config.va 0
+
 #placelimit config -VoxelArt will move to this many positions every tick with the fill movement (impacts tickrate)
 scoreboard players set placelimit config.va 10
 

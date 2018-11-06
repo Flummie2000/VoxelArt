@@ -42,6 +42,7 @@ scoreboard objectives remove path.va
 scoreboard objectives remove replace.va
 scoreboard objectives remove rotate.va
 scoreboard objectives remove size.va
+scoreboard objectives remove brushmodel.va
 scoreboard objectives remove smooth.va
 scoreboard objectives remove snapping.va
 scoreboard objectives remove stoprotation.va

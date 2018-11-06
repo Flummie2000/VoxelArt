@@ -4,11 +4,11 @@
 		"layer0": "item/carrot_on_a_stick"
 	},
 	"overrides": [
-		{ "predicate": {"damaged": 0, "damage": 0.04}, "model":"brushes/coas_p"},
-		{ "predicate": {"damaged": 0, "damage": 0.08}, "model": "brushes/coas_r"},
-		{ "predicate": {"damaged": 0, "damage": 0.12}, "model": "brushes/coas_y"},
-		{ "predicate": {"damaged": 0, "damage": 0.16}, "model": "brushes/coas_b"},
-		{ "predicate": {"damaged": 0, "damage": 0.2}, "model": "brushes/coas_g"},
-		{ "predicate": {"damaged": 0, "damage": 0.24}, "model": "brushes/coas_d"}
+		{ "predicate": {"custom_model_data": 1}, "model":"brushes/coas_p"},
+		{ "predicate": {"custom_model_data": 2}, "model": "brushes/coas_r"},
+		{ "predicate": {"custom_model_data": 3}, "model": "brushes/coas_y"},
+		{ "predicate": {"custom_model_data": 4}, "model": "brushes/coas_b"},
+		{ "predicate": {"custom_model_data": 5}, "model": "brushes/coas_g"},
+		{ "predicate": {"custom_model_data": 6}, "model": "brushes/coas_d"}
 	]
 }
